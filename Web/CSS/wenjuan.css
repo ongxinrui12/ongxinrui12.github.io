@@ -1,0 +1,48 @@
+#tijiao {
+  /*提交按钮*/
+  margin-top: 20px;
+  text-align: center;
+}
+
+#tijiao input {
+  width: 100px;
+  height: 35px;
+  background-color: #014d4dc5;
+}
+form {
+	display: table;
+	padding: 10px;
+	border: thin double #014d4dc5;
+	background-color: #f3ece3;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style:      ridge;
+  border-radius:     4%;
+  /* 外边距自动调整使整个表单居中显示 */
+}
+
+form textarea {
+	width: 500px;
+	height: 200px;
+}
+
+#footer {
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+    
+  }
+div.tableRow {
+	display: table-row;
+}
+.rg{
+  font-family: 'Courier New', Courier, monospace;
+  color: #724d07;
+  font-size: large;
+  text-align: center;
+  font-weight: bold;
+}
+
+

@@ -1,0 +1,89 @@
+body { 
+    background-color: #ffffff; 
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        small;
+    margin:           0px;
+    line-height:      1.5em;
+  }
+  
+#header {
+      background-color: #014d4dc5;
+      margin: 10px 10px 0px 10px;
+      height:           108px;
+  }
+
+#xiaohui{
+    position: fixed;
+    /* 固定定位 */
+      top: 350px;
+      left: 0px;
+  }
+#tableContainer {
+      display: table;
+      border-spacing: 10px;
+      border-radius: 3em;
+  }
+  
+#tableRow {
+      display: table-row;
+  }
+  
+#school {
+      display: table-cell;
+      background-color: #f3ece3;
+      width: 40%;
+      padding: 15px;
+      vertical-align: top;
+      border-style:      ridge;
+      border-radius:     4%;
+  }
+  
+#school h1{
+    font-size: 20px;
+  }
+  
+#study {
+    display: table-cell;
+    background:       #f3ece3;
+    font-size:        40%;
+    padding:          15px;
+    vertical-align: top;
+    border-style:      ridge;
+    /* 脊线 */
+    border-radius:     4%;
+  }
+
+#study h1{
+    font-size: 20px;
+  }
+  
+td, th { 
+    text-align: center;
+    border: 1px solid black; 
+}
+
+#xinwen {
+    display: table-cell;
+    background:       #f3ece3;
+    font-size:        105%;
+    padding:          15px;
+    vertical-align: top;
+    border-style:      ridge;
+    border-radius:     4%;
+  }
+h1 {
+    font-size:        130%;
+    color:            #014d4dc5;
+  }
+  
+h2 { font-size: 110%; }
+.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}  
+.an{
+  font-size: 80%;
+}
+
+  
+  

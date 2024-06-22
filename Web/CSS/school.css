@@ -1,0 +1,74 @@
+body { 
+    background-color: #ffffff;
+    font-family:      Verdana, Geneva, Tahoma, sans-serif;
+    font-size:        small;
+    margin:           0px;
+  }
+  
+#header {
+    background-color: #014d4dc5;
+    height:           80px;
+  }
+  
+  #main {
+    background:       #f3ece3;
+    font-size:        105%;
+    padding:          15px;
+    margin:           10px 10px 10px 10px;
+    width:            800px;
+    float:            left;
+    line-height:      1.3em;
+   /* 盒模型必须有宽度的设置 */
+   border-style:      ridge;
+   border-radius:     4%;
+  }
+  
+  #sidebar {
+    background:       #f3ece3;
+    font-size:        105%;
+    padding:          15px;
+    margin:           20px 10px 10px 850px;
+    line-height:      1.8em;
+    border-style:     ridge;
+    border-radius:    4%;
+  }
+  
+  
+td, th { 
+    text-align: center;
+    border: 1px solid black; 
+}
+
+h1 {
+    font-size:        120%;
+    color:            #954b4b;
+  }
+  #footer {
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
+    background-color:#014d4dc5 ;
+    color: #ffffff;
+    clear: left;
+  }
+  /* 绝对定位
+#main {
+  background:       #efe5d0 url(images/background.gif) top left;
+  font-size:        105%;
+  padding:          15px;
+  margin:           0px 330px 10px 10px;
+}
+
+#sidebar {
+  background:       #efe5d0 url(images/background.gif) bottom right;
+  font-size:        105%;
+  padding:          15px;
+  margin:           0px 10px 10px 10px;
+  width: 280px;
+  position: absolute;
+  top: 128px;
+  right: 0px;
+}  
+   */
+  

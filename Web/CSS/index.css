@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 父元素 定义整个页面中的字体样式 */
+
+div.inner{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 公共类 定义盒子宽度 用来放置内容 */
+
+/*以下内容已在nav.css中体现，故删除
+ div#header{
+    height: 100px;
+    background-image:url(../images/header.jpg);
+}
+
+#nav ul {
+    导航栏
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 0px;
+    width: auto;
+    height: 30px;
+}
+ 
+#nav ul li {
+    导航栏列表
+    height: 30px;
+    width: 16.45%;
+    list-style: none;
+    列表样式无
+    float: left;
+    左浮动
+    display: inline;
+    行内显示
+    font: 0.9em;
+}
+ 
+#nav ul li a {
+    /*导航栏超链接
+    text-align: center;
+    /*文本居中
+    color: white;
+    width: 100%;
+    font-size: larger;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(87, 156, 241);
+    line-height: 40px;
+    border-bottom: 1px solid rgb(168, 164, 172);
+}
+ 
+#nav ul li a:hover {
+    /*鼠标划过时
+    color: rgb(0, 0, 0);
+    background-color: rgb(37, 84, 155);
+    border-bottom: 3px solid rgb(16, 4, 28);
+} */
+/* 轮翻滚动*/ 
+.news-container {
+    width: 100%;
+    overflow: hidden;
+    /* 设置溢出内容隐藏，即超出容器宽度的内容不可见*/  
+  }
+  .news-item {
+    display: none;
+  }
+.zpjz{
+    /* 调整照片布局 */
+    text-align: center;
+    margin-top: 20px;
+  }
+div#container{
+    background: #dce0e077;
+    height: 420px;
+    border-bottom: #b09555;
+    border-style:      groove;
+    border-radius:     4%;
+   
+}
+div#container.inner{
+    height: 420px;
+}
+
+div#container div.inner div#cont_1{
+    background-color:#f1efe3;
+    width: 310px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    line-height: 1.2em;
+    border-style:      groove;
+    border-radius:     4%;
+}
+div#container div.inner div#cont_2{
+    background-color: #f1efe3;
+    width: 310px;
+    height: 330px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 32px;
+    border-style:      groove;
+    border-radius:     4%;
+
+}
+div#container div.inner div#cont_3{
+    background-color: #f1efe3;
+    width: 310px;
+    height: 330px;
+    float: right;
+    margin-top: 20px;
+    border-style:      groove;
+    border-radius:     4%;
+
+}
+h1{
+    font-size: medium;
+    color: #b09555;
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    font-size: small;
+    line-height: 2.0em;
+}
+.cd{
+    font-weight:bold;
+}
+h2 {
+    text-align:       center;
+    line-height:      1.8em;
+    font-style:       10%;
+    /* 因为index.html中只有一种作用类型的h2，故直接用h2定义，没有使用类来定义 */
+  }
+.ef{
+    font-family: 'Courier New', Courier, monospace;
+    /* 等宽字体样式 */
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline double;
+}

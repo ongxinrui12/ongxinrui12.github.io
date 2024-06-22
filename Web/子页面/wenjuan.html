@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/nav.css">
+  <link rel="stylesheet" href="../CSS/wenjuan.css">
+  <title>调查问卷</title>
+</head>
+<body>
+  <div id="header">
+    <div class="inner"></div>
+</div>
+    <div id="nav">
+        <div class="inner"></div>
+<nav>
+  <div class="inner"></div>
+    <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="introduce.html">个人简介</a></li>
+        <li><a href="school.html">学校简介</a></li>
+        <li><a href="life.html">校园生活</a></li>
+        <li><a href="wenjuan.html">食堂问卷调查</a></li>
+    </ul>
+</nav>  
+</div> 
+<form>
+  <div class="inner">
+    <p class="rg">
+      对学校食堂满意度的调查
+    </p>
+	<div class="tableRow">
+		<p>
+      选择你所在的校区:
+  </p>
+  <p>
+        <select name="xiaoqu">
+          <option value="首义">首义</option>
+          <option value="南湖">南湖</option>
+        </select>
+  </p>
+	</div>
+	<div class="tableRow">
+		<p> 就餐方式: </p>
+		<p>
+            <input type="radio" name="fangshi" value="tangshi"checked> 堂食<br>
+            <input type="radio" name="fangshi" value="daizou" > 
+            带走
+		</p>
+	</div>
+	<div class="tableRow">
+		<p> 每周在食堂就餐次数: </p>
+		<p> <input type="number" name="chi" min="0" max="21"> </p>
+	</div>
+	<div class="tableRow label">
+		<p> 最近一次就餐时间: </p>
+		<p> <input type="date" name="date"> </p>
+	</div>
+    
+        您对学校食堂的满意程度<br>
+        <input name="hao" type="radio" value="1" checked="checked" />满意<br>
+        <input name="hao" type="radio" value="1" />比较满意<br>
+        <input name="hao" type="radio" value="1" />不满意<br>
+        
+
+        您认为食堂还有哪些方面需要提高<br>
+        <input name="jianyi" type="checkbox" value="2"checked="checked" />提高做饭流程透明度，
+        以防食堂部分店家在食客不知情的情况下使用预制菜<br>
+        <input name="jianyi" type="checkbox" value="2" />加强对食堂的监管，防止部分店家使用腐烂食材<br>
+        <input name="jianyi" type="checkbox" value="2" />丰富食堂菜系<br>
+        <input name="jianyi" type="checkbox" value="2" />降低用餐费用<br>
+        <input name="jianyi" type="checkbox" value="2" />暂无<br>
+        <input name="jianyi" type="text"  /> 其他补充<br><br>
+    
+      <div id="tijiao">
+      <!--提交重置-->
+      <input type="submit" name="submit" value="提交">
+      <input type="reset" name="reset" value="重置">
+      </div>
+    </div>
+</form>
+
+  <div id="footer">
+    <small>
+    &copy; 2024, 董馨睿的个人网页<br>
+    web前端开发--调查问卷
+    </small>
+  </div>  
+</body>
+</html>
+

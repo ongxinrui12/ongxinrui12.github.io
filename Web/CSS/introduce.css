@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #055e5ec5;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: outset;
+}
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.last {
+    text-align: left;
+}
+caption{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+}
